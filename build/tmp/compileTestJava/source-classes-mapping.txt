@@ -1,0 +1,30 @@
+starter/search/SearchForm.java
+ starter.search.SearchForm
+starter/search/SearchResultList.java
+ starter.search.SearchResultList
+starter/stepdefinitions/SearchOnDuckDuckGoStepDefinitions.java
+ starter.stepdefinitions.SearchOnDuckDuckGoStepDefinitions
+starter/search/ProductoA.java
+ starter.search.ProductoA
+starter/navigation/NavegaA.java
+ starter.navigation.NavegaA
+starter/stepdefinitions/BuyDellI78GbGoStepDefinitions.java
+ starter.stepdefinitions.BuyDellI78GbGoStepDefinitions
+starter/navigation/Compra.java
+ starter.navigation.Compra
+starter/search/SearchResult.java
+ starter.search.SearchResult
+starter/navigation/DemoBlazeGoHomePage.java
+ starter.navigation.DemoBlazeGoHomePage
+starter/CucumberTestSuite.java
+ starter.CucumberTestSuite
+starter/search/CategoryA.java
+ starter.search.CategoryA
+starter/navigation/DuckDuckGoHomePage.java
+ starter.navigation.DuckDuckGoHomePage
+starter/search/SearchFor.java
+ starter.search.SearchFor
+starter/matchers/StringContainsIgnoringCase.java
+ starter.matchers.StringContainsIgnoringCase
+starter/navigation/NavigateTo.java
+ starter.navigation.NavigateTo

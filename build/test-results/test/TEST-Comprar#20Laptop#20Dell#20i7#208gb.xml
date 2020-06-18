@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Comprar Laptop Dell i7 8gb" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-18T19:38:59" hostname="DESKTOP-9S9LP62" time="10.299">
+  <properties/>
+  <testcase name="Navegar en la pagina" classname="Comprar Laptop Dell i7 8gb" time="10.299"/>
+  <system-out><![CDATA[Feature: Comprar Laptop Dell i7 8gb
+
+  Scenario: Navegar en la pagina           ?[90m# src/test/resources/features/buy/dell_i7_8_gb.feature:3?[0m
+14:38:59.504 [Test worker] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Navegar en la pagina(comprar-laptop-dell-i7-8gb;navegar-en-la-pagina)
+-------------------------------------------------------------------
+14:39:00.712 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+14:39:00.713 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: true, browserName: firefox, firefox_profile: org.openqa.selenium.firefox..., headless: false, loggingPrefs: org.openqa.selenium.logging..., marionette: true, moz:firefoxOptions: {}, platform: ANY, version: }
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mLuis?[0m?[32m esta en la pagina principal?[0m ?[90m# BuyDellI78GbGoStepDefinitions.estaEnLaPaginaPrincipal(String)?[0m
+    ?[32mWhen ?[0m?[32mEl navega a ?[0m?[32m?[1m"Laptops"?[0m             ?[90m# BuyDellI78GbGoStepDefinitions.navegaA(String)?[0m
+    ?[32mWhen ?[0m?[32mEl selecciona ?[0m?[32m?[1m"Dell i7 8gb"?[0m       ?[90m# BuyDellI78GbGoStepDefinitions.selecciona(String)?[0m
+    ?[32mWhen ?[0m?[32mEl compra el producto?[0m             ?[90m# BuyDellI78GbGoStepDefinitions.compra()?[0m
+]]></system-out>
+  <system-err><![CDATA[jun 18, 2020 2:39:00 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFORMACIÓN: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+jun 18, 2020 2:39:00 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFORMACIÓN: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+1592509141768	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lucho\\AppData\\Local\\Temp\\rust_mozprofile.KRqnKq53CZut"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592509144554	Marionette	INFO	Listening on port 54885
+1592509144877	Marionette	WARN	TLS certificate errors will be ignored for this session
+jun 18, 2020 2:39:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
